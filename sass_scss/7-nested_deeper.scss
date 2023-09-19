@@ -1,15 +1,11 @@
-$text-color: #3d3d3d;
-$text-color-red: #ff0000;
-$button-hover-color: #00ff00;
-$body-font-size: 14px;
-$h1-font-size: 16px;
-$h1-font-smaller: 12px;
+/* Nested and nested again */
+
 body {
-  font-size: $body-font-size;
+  font-size: 14px;
   h1 {
-    font-size: $h1-font-size;
-    h1.smaller {
-      font-size: $h1-font-smaller;
+    font-size: 16px;
+    &.smaller {
+      font-size: 12px; 
     }
   }
 }
